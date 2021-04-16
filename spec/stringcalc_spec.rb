@@ -22,4 +22,8 @@ describe 'String Calculator' do
     expect(@stringcalc.run("1 / 1")).to eq(["1 / 1", 1])
   end
 
+  it 'calculates simple 2 integer multiplication' do
+    expect(@stringcalc.run("2 * 2")).to eq(["2 * 2", 4])
+  end
+
 end

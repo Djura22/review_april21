@@ -18,4 +18,8 @@ describe 'String Calculator' do
     expect(@stringcalc.run("1 - 1")).to eq(["1 - 1", 0])
   end
 
+  it 'calculates simple 2 integer division' do
+    expect(@stringcalc.run("1 / 1")).to eq(["1 / 1", 1])
+  end
+
 end

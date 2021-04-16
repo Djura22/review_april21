@@ -14,6 +14,8 @@ describe 'String Calculator' do
     expect(@stringcalc.run("1 + 1")).to eq(["1 + 1", 2])
   end
 
-
+  it 'calculates simple 2 integer subtraction' do
+    expect(@stringcalc.run("1 - 1")).to eq(["1 - 1", 0])
+  end
 
 end
